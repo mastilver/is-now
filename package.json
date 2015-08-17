@@ -1,0 +1,32 @@
+{
+  "name": "is-now",
+  "version": "1.0.0",
+  "description": "My delightful module",
+  "license": "MIT",
+  "repository": "mastilver/is-now",
+  "author": {
+    "name": "Thomas Sileghem",
+    "email": "th.sileghem@gmail.com",
+    "url": "github.com/mastilver"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "time",
+    "sync"
+  ],
+  "dependencies": {
+    "moment": "^2.10.6"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
+  }
+}
